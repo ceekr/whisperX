@@ -19,7 +19,7 @@ setup(
         for r in pkg_resources.parse_requirements(
             open(os.path.join(os.path.dirname(__file__), "requirements.txt"))
         )
-    ] + ["git+https://github.com/ceekr/pyannote-audio.git@a127dd24f03605c501f575133d4c5a3b37562f2b"],
+    ],
     entry_points = {
         'console_scripts': ['whisperx=whisperx.transcribe:cli'],
     },
