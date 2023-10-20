@@ -6,8 +6,3 @@ ffmpeg-python>=0.2
 pandas
 setuptools>=65
 nltk
-# Adding the newly forked pyannote-audio for Apple M1 fix
-git+https://github.com/ceekr/pyannote-audio.git@a127dd24f03605c501f575133d4c5a3b37562f2b#egg=pyannote-audio
-
-
-
